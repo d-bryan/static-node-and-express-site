@@ -1,0 +1,15 @@
+{
+  "name": "static-node-and-express-site",
+  "version": "0.0.1",
+  "description": "Static Node JS and Express Site",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dylan Bryan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^2.0.4"
+  }
+}
