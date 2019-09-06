@@ -1,5 +1,67 @@
 # static-node-and-express-site
 
+## Dependencies
+
+`Express ^4.17.1`
+`Pug ^2.0.4`
+
+## app.js file
+
+The `app.js` file is the middleware file for handling all of the routes for templates and errors
+
+It gets all of the information needed for the templates from the `data.json` file
+
+## Pug Templates
+
+### Layout
+
+This sets up the HTML for the page and the body and blocks the content out
+
+### Index
+
+`Extends Layout` => gets set to home route, uses an `each loop` to add the the main img source, link and text to the page
+
+### Project
+
+`Extends Layout` => gets set to project route, using interpolation it gets the project selected to generate assets such as: `../project/project#`
+
+uses an `each loop` to generate the following assets for the project:
+
+  - technologies used in the project
+  - screenshots from the project itself
+
+### About
+
+`Extends Layout` => adds description to the page, skills, links to social media and contact info
+
+### Error
+
+`Extends Layout` => displays user friendly error message, shows 404 png, adds a link back to the home route, displays error code and the error stack all in a clean and friendly manner
+
+## Customizations
+
+I really liked the font, background and text colors (must be the designer in me, dont change what isnt broken) so I chose to change the following:
+
+- box or text shadows
+  - transitions or animations
+  - add a logo
+
+### box or text shadows
+
+I added hover animations to the thumbnail class so that it changed to a light crimson color
+
+### transition or animations
+
+I made all of the `li` and `H1` elements have a hover transition as well to change to the light crimson color
+
+### add a logo
+
+I designed a custom logo in adobe illustrator for my project and made differnet sizes for specific purposes adding one to the about page
+
+### favicon
+
+this was not asked of me, but again I am a huge fan of black and white and no matter how many different color schemes I tried I didnt like the logo in any of them except B&W so I just added a favicon instead of changing the colors and fonts I need one for my real portfolio anyway so I hope this doesnt prevent me from getting exceeds on this.
+
 ## Grade Expectations
 
 My goal is to receive Exceeds Expectations on this project

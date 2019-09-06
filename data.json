@@ -3,83 +3,73 @@
     {
       "id": 0,
       "project_name": "Random Quote Generator",
-      "description": "Construct a random quote generator using JSON objects and Vanilla JavaScript",
+      "description":  "Construct a random quote generator using JSON objects and Vanilla JavaScript",
       "technologies": ["HTML", "CSS", "JavaScript", "Github"],
-      "live_link": "https://d-bryan.github.io/random-quote-generator/",
-      "github_link": "https://github.com/d-bryan/random-quote-generator/",
+      "live_link":    "https://d-bryan.github.io/random-quote-generator/",
+      "github_link":  "https://github.com/d-bryan/random-quote-generator/",
+      "main_image":   "/static/img/unit-01/main.png",
       "image_urls": [
-        {
-          "main": "/public/img/unit-01/main.png",
-          "first": "/public/img/unit-01/first.png",
-          "second": "/public/img/unit-01/second.png",
-          "third": "/public/img/unit-01/third.png"
-        }
+          "/static/img/unit-01/first.png",
+          "/static/img/unit-01/second.png",
+          "/static/img/unit-01/third.png"
       ]
     },
     {
       "id": 1,
       "project_name": "List Pagination and Filtering",
-      "description": "Tasked with using common web development techniques know as pagination to enhance the usability of a webpage.",
+      "description":  "Tasked with using common web development techniques know as pagination to enhance the usability of a webpage.",
       "technologies": ["HTML", "CSS", "JavaScript", "Github"],
-      "live_link": "https://d-bryan.github.io/list-pagination-and-filtering/",
-      "github_link": "https://github.com/d-bryan/list-pagination-and-filtering/",
+      "live_link":    "https://d-bryan.github.io/list-pagination-and-filtering/",
+      "github_link":  "https://github.com/d-bryan/list-pagination-and-filtering/",
+      "main_image":   "/static/img/unit-02/main.png",
       "image_urls": [
-        {
-          "main": "/public/img/unit-02/main.png",
-          "first": "/public/img/unit-02/first.png",
-          "second": "/public/img/unit-02/second.png",
-          "third": "/public/img/unit-02/third.png"
-        }
+          "/static/img/unit-02/first.png",
+          "/static/img/unit-02/second.png",
+          "/static/img/unit-02/third.png"
       ]
     },
     {
       "id": 2,
       "project_name": "Interactive Form",
-      "description": "Use JQuery to enhance the interactivty of a user registration form",
+      "description":  "Use JQuery to enhance the interactivty of a user registration form",
       "technologies": ["HTML", "CSS", "JavaScript", "JQuery", "Github"],
-      "live_link": "https://d-bryan.github.io/interactive-form/",
-      "github_link": "https://github.com/d-bryan/interactive-form/",
+      "live_link":    "https://d-bryan.github.io/interactive-form/",
+      "github_link":  "https://github.com/d-bryan/interactive-form/",
+      "main_image":   "/static/img/unit-03/main.png",
       "image_urls": [
-        {
-          "main": "/public/img/unit-03/main.png",
-          "first": "/public/img/unit-03/error_1.png",
-          "second": "/public/img/unit-03/error_2.png",
-          "third": "/public/img/unit-03/success_1.png",
-          "fourth": "/public/img/unit-03/success_2.png"
-        }
+          "/static/img/unit-03/error_1.png",
+          "/static/img/unit-03/error_2.png",
+          "/static/img/unit-03/success_1.png",
+          "/static/img/unit-03/success_2.png"
       ]
     },
     {
       "id": 3,
       "project_name": "OOP Game Show Application",
-      "description": "Create an Object Oriented game show application to allow users to guess phrases in play",
+      "description":  "Create an Object Oriented game show application to allow users to guess phrases in play",
       "technologies": ["HTML", "CSS", "JavaScript", "Github"],
-      "live_link": "https://d-bryan.github.io/OOP-Game-Show-App/",
-      "github_link": "https://github.com/d-bryan/OOP-Game-Show-App/",
+      "live_link":    "https://d-bryan.github.io/OOP-Game-Show-App/",
+      "github_link":  "https://github.com/d-bryan/OOP-Game-Show-App/",
+      "main_image":   "/static/img/unit-04/main.png",
       "image_urls": [
-        {
-          "main": "/public/img/unit-04/main.png",
-          "first": "/public/img/unit-04/first.png",
-          "second": "/public/img/unit-04/second.png",
-          "third": "/public/img/unit-04/win.png",
-          "fourth": "/public/img/unit-04/loss.png"
-        }
+          "/static/img/unit-04/first.png",
+          "/static/img/unit-04/second.png",
+          "/static/img/unit-04/win.png",
+          "/static/img/unit-04/loss.png"
       ]
     },
     {
       "id": 4,
       "project_name": "Public API Request Application",
-      "description": "Create an employee directory that generated employee data from an API",
+      "description":  "Create an employee directory that generated employee data from an API",
       "technologies": ["HTML", "CSS", "JavaScript", "JQuery", "AJAX", "Github"],
-      "live_link": "https://d-bryan.github.io/public-api-request-app/",
-      "github_link": "https://github.com/d-bryan/public-api-request-app/",
+      "live_link":    "https://d-bryan.github.io/public-api-request-app/",
+      "github_link":  "https://github.com/d-bryan/public-api-request-app/",
+      "main_image":   "/static/img/unit-05/main.png",
       "image_urls": [
-        {
-          "main": "/public/img/unit-05/main.png",
-          "first": "/public/img/unit-05/first.png",
-          "second": "/public/img/unit-05/second.png",
-          "third": "/public/img/unit-05/third.png"
-        }
+           "/static/img/unit-05/first.png",
+           "/static/img/unit-05/second.png",
+           "/static/img/unit-05/third.png"
       ]
     }
   ]

@@ -3,6 +3,10 @@ h1,h2,h3,h4,h5,p{
   font-family: 'Merriweather', serif;
 }
 
+h1:hover {
+  color: rgb(223, 73, 73);
+}
+
   h5{
     font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     letter-spacing: 2.5px;
@@ -126,6 +130,7 @@ a:hover{
 
     .portfolio-index .cell h5{
       letter-spacing: 1px;
+      text-align: center;
     }
 
 .portfolio-meta{
@@ -147,4 +152,23 @@ a:hover{
 
 .portfolio-bio{
     line-height: 25px;
+}
+
+.error-status {
+  text-align: center;
+}
+
+li:hover {
+  color: rgb(223, 73, 73);
+}
+
+.personal-logo {
+  margin-bottom: 1.25em;
+}
+
+img.thumbnail:hover {
+  animation: ease-in;
+  border: solid 4px rgb(223, 73, 73);
+  border-radius: 0;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.2);
 }
