@@ -43,8 +43,8 @@ uses an `each loop` to generate the following assets for the project:
 I really liked the font, background and text colors (must be the designer in me, dont change what isnt broken) so I chose to change the following:
 
 - box or text shadows
-  - transitions or animations
-  - add a logo
+- transitions or animations
+- add a logo
 
 ### box or text shadows
 
