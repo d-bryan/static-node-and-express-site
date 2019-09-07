@@ -6,13 +6,11 @@ const app = express();
 const data = require('./data.json');
 // assign array of objects to projectData
 const projectData = data.projects;
-// console.log(projectData[0].image_urls[0].main);
-
 // set the view engine to pug
 app.set('view engine', 'pug');
-
 // use static route to serve static files with express.static method from public folder
 app.use('/static', express.static('public'));
+
 
 // get the home route
 app.get('/', (req, res) => {
@@ -28,12 +26,28 @@ app.get('/about', (req, res) => {
 
 // get the projects route
 app.get('/project/:id', (req, res, next) => {
+  
   // assign request parameter object to id
   const id = req.params.id;
   // assign the requested object to array position variable project
   const project = projectData[id];
-  // render the requested project to the project template
-  res.render('project', {project});
+  // if the project doesnt exist show error template
+  if (project === undefined) {
+    // new Type Error
+    const err = new Error('The project does not exist');
+    err.status = 404;
+    // pass the error to locals for use on error template
+    res.locals.error = err;
+    // log error to the console
+    console.log(err);
+    res.render('error');
+  // else render the project page
+  } else {
+    // render the requested project to the project template
+    res.render('project', {project});
+  }
+
+  next();
 });
 
 // handle 404 page not found and show user friendly page
