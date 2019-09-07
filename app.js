@@ -10,8 +10,6 @@ const projectData = data.projects;
 var http = require('http');
 // require HTTPS
 var https = require('https');
-// process environment
-// var port = process.env.PORT || 443;
 // set the process environment
 app.set('port', process.env.PORT || 3000)
 // set the view engine to pug
@@ -72,11 +70,6 @@ app.use((req, res, next) => {
   // continue the app
   next();
 });
-
-// listen for the app on port 3000
-// app.listen(3000, () => {
-//   console.log('Running on localhost:3000');
-// });
 
 // create server and listen for app
 http.createServer(app).listen(app.get('port'), function () {
