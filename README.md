@@ -1,5 +1,7 @@
 # static-node-and-express-site
 
+The live version of the site can be found at https://dylan-bryan-portfolio.herokuapp.com/
+
 ## Dependencies
 
 `Express ^4.17.1`
