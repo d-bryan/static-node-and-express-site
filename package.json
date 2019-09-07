@@ -11,6 +11,9 @@
     "type": "git",
     "url": "https://github.com/d-bryan/static-node-and-express-site.git"
   },
+  "engines": {
+    "node": "^12.6.0"
+  },
   "author": "Dylan Bryan",
   "license": "ISC",
   "dependencies": {
