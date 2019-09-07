@@ -6,6 +6,14 @@ const app = express();
 const data = require('./data.json');
 // assign array of objects to projectData
 const projectData = data.projects;
+// require HTTP
+var http = require('http');
+// require HTTPS
+var https = require('https');
+// process environment
+// var port = process.env.PORT || 443;
+// set the process environment
+app.set('port', process.env.PORT || 3000)
 // set the view engine to pug
 app.set('view engine', 'pug');
 // use static route to serve static files with express.static method from public folder
@@ -66,6 +74,11 @@ app.use((req, res, next) => {
 });
 
 // listen for the app on port 3000
-app.listen(3000, () => {
-  console.log('Running on localhost:3000');
-});
+// app.listen(3000, () => {
+//   console.log('Running on localhost:3000');
+// });
+
+// create server and listen for app
+http.createServer(app).listen(app.get('port'), function () {
+  console.log('Express server listening on port ' + app.get('port'))
+})
