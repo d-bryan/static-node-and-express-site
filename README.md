@@ -38,7 +38,7 @@ uses an `each loop` to generate the following assets for the project:
 
 ### Error
 
-`Extends Layout` => displays user friendly error message, shows 404 png, adds a link back to the home route, displays error code and the error stack all in a clean and friendly manner
+`Extends Layout` => displays user friendly error message, shows 404 png, adds a link back to the home route -> "Find your way back home", displays error code and the error stack all in a clean and friendly manner
 
 ## Customizations
 
