@@ -66,7 +66,7 @@ this was not asked of me, but again I am a huge fan of black and white and no ma
 
 ## Grade Expectations
 
-My goal is to receive Exceeds Expectations on this project
+UPDATE: Received Exceeds Expectations
 
 ## Initialize the app and add dependencies
 
